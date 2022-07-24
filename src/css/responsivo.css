@@ -48,8 +48,8 @@
     }
 
     main {
-        padding: 0 5px;
-        justify-content: start;
+        display: flex;
+        justify-content: center;
         }
 
     .cabecalho .titulo {
@@ -59,6 +59,22 @@
 
     .selecao-de-personagens .personagem-grande {
         display: none;
+    }
+
+    .selecao-de-personagens {
+        height: 500px;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-personagens .lista-de-personagens {
+        width: 100%;
+        height: 100%;
+    }
+
+    .selecao-de-personagens .lista-de-personagens li.personagem {
+        width: 30%;
+        height: 30%;
     }
 }
 
