@@ -21,6 +21,7 @@ main {
     z-index: 1;
     display: flex;
     justify-content: center;
+    min-width: 300px;
 }
 
 .cabecalho .titulo {
@@ -31,7 +32,7 @@ main {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px black;
     text-transform: uppercase;
-    font-size: 15vh;
+    font-size: 100px;
 }
 
 .selecao-de-personagens {
@@ -53,6 +54,14 @@ main {
     transform: translate(-50%, -40%);
     width: 150%;
 }
+
+#personagem-jogador-2 {
+    max-width: 50vw;
+ }
+
+ #personagem-jogador-1 {
+     max-width: 50vw;
+ }
 
 .selecao-de-personagens .personagem-grande .nome {
     height: 30px;
@@ -91,6 +100,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
+    min-width: 30vw;
     justify-content: center;
     gap: 12px;
 }
