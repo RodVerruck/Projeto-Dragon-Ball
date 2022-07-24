@@ -1,8 +1,14 @@
 @media (max-width: 1280px){
+
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
     
     .cabecalho .titulo {
         font-size: 15vh;
         text-align: center;
+        padding-bottom: 100px;
     }
 
     .selecao-de-personagens .lista-de-personagens {
@@ -58,9 +64,30 @@
 
 @media (max-width: 360px){
 
+    html {
+        max-width: 310px;
+        max-height: 95vh;
+        overflow: hidden;
+    }
+    
+    body {
+        background-image: url(../imagens/1cYrMYF.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        opacity: 1;
+        overflow: hidden;
+        max-width: 310px;
+        max-height: 95vh;
+    }
+
     main {
         height: 100vh;
         justify-content: center;
+        max-width: 310px;
+        max-height: 95vh;
+        overflow: hidden;
     }
 
     header {
@@ -75,10 +102,11 @@
         top: 50%;
 
         transform: translate(-50%, -50%);
+        padding-bottom: 20px;
     }
 
     div.selecao-de-personagens {
-
+        max-width: 300px;
     }
 
     div.selecao-de-personagens .lista-de-personagens {
