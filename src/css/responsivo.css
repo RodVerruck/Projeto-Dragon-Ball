@@ -3,7 +3,6 @@
     .cabecalho .titulo {
         font-size: 15vh;
         text-align: center;
-        line-height: 0.7;
     }
 
     .selecao-de-personagens .lista-de-personagens {
@@ -58,7 +57,39 @@
 }
 
 @media (max-width: 360px){
-    .cabecalho .titulo {
-        font-size: 10vh;
+
+    main {
+        height: 100vh;
+        justify-content: center;
+    }
+
+    header {
+        height: 20vh;
+        width: 97vw;
+        position: relative;
+    }
+
+    h1.titulo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    div.selecao-de-personagens {
+
+    }
+
+    div.selecao-de-personagens .lista-de-personagens {
+        gap: 7px;
+    }
+
+    div.personagem-grande {
+        display: none;
+    }
+
+    li.personagem {
+        max-width: 29vw;
     }
 }
