@@ -1,139 +1,42 @@
-@media (max-width: 1280px){
-
+@media (max-width: 360px) {
     body {
-        height: 100vh;
-        width: 100vw;
-    }
-    
-    .cabecalho .titulo {
-        font-size: 15vh;
-        text-align: center;
-        padding-bottom: 100px;
+        height: 100vw;
+        width: 100vh;
+        margin-top: 50px;
     }
 
-    .selecao-de-personagens .lista-de-personagens {
-        
-        flex: 1 1 30%;
-    }
-
-    .selecao-de-personagens .lista-de-personagens .personagem {
-        width: 100px;
-        height: 100px;
-    }
-
-    .selecao-de-personagens .personagem-grande .personagem-jogador-1 {
-        flex: 1 1 30%;
-    }
-
-    .selecao-de-personagens .personagem-grande .personagem-jogador-2 {
-        flex: 1 1 30%;
-    }
-
-    #personagem-jogador-2 {
-       max-width: 50vw;
-    }
-
-    #personagem-jogador-1 {
-        max-width: 50vw;
-    }
-
-}
-@media (max-width: 767px){
-    body {
-        background-image: url(../imagens/1cYrMYF.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        opacity: 1;
-    }
-
-    main {
-        display: flex;
-        justify-content: center;
-        }
-
-    .cabecalho .titulo {
-        font-size: 10vh;
-        text-align: center;
-    }
-
-    .selecao-de-personagens .personagem-grande {
-        display: none;
-    }
-
-    .selecao-de-personagens {
-        height: 500px;
-        width: 500px;
-        margin: 0 auto;
-    }
-
-    .selecao-de-personagens .lista-de-personagens {
-        width: 100%;
-        height: 100%;
-    }
-
-    .selecao-de-personagens .lista-de-personagens li.personagem {
-        width: 30%;
+    .cabecalho {
+        width: 50%;
         height: 30%;
-    }
-}
-
-@media (max-width: 360px){
-
-    html {
-        max-width: 310px;
-        max-height: 95vh;
-        overflow: hidden;
-    }
-    
-    body {
-        background-image: url(../imagens/1cYrMYF.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        opacity: 1;
-        overflow: hidden;
-        max-width: 310px;
-        max-height: 95vh;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
 
-    main {
-        height: 100vh;
-        justify-content: center;
-        max-width: 310px;
-        max-height: 95vh;
-        overflow: hidden;
-    }
-
-    header {
-        height: 20vh;
-        width: 97vw;
-        position: relative;
-    }
-
-    h1.titulo {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-
-        transform: translate(-50%, -50%);
-        padding-bottom: 20px;
+    .cabecalho .titulo {
+        font-size: 50px;
+        text-align: center;
     }
 
     div.selecao-de-personagens {
-        max-width: 300px;
+        width: 300px;
+        height: 300px;
+        margin: auto;
     }
 
-    div.selecao-de-personagens .lista-de-personagens {
-        gap: 7px;
-    }
-
-    div.personagem-grande {
+    div.selecao-de-personagens .personagem-grande {
         display: none;
     }
 
-    li.personagem {
-        max-width: 29vw;
+    .selecao-de-personagens .lista-de-personagens {
+        gap: 0;
+        width: 300px;
+        min-width: 300px;
+        height: 300px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens .personagem {
+        width: 33%;
+        height: 33%;
     }
 }
